@@ -1,5 +1,22 @@
-CREATE DATABASE driver_management;
-USE driver_management;
+CREATE DATABASE IF NOT EXISTS trashmaster;
+USE trashmaster;
+
+
+CREATE TABLE IF NOT EXISTS schedule (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fname VARCHAR(100) NOT NULL,
+    lname VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    pno VARCHAR(15) NOT NULL,
+    adde TEXT NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    state VARCHAR(100) NOT NULL,
+    zip VARCHAR(10) NOT NULL,
+    time VARCHAR(50) NOT NULL,
+    date DATE NOT NULL,
+    seg ENUM('True', 'False') NOT NULL DEFAULT 'False',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 CREATE TABLE drivers (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
