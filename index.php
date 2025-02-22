@@ -45,8 +45,18 @@
       <a href="manage.php" target="_blank">Awareness</a>
       <a href="about.php" target="_blank">About Us</a>
       <a href="Community.php" target="_blank">Community</a>
+<<<<<<< Updated upstream
       <a href="./map/admin/admin_login.php" target="_blank">admin</a>
       <a href="./map/public/login.php" target="_blank">driver</a>
+=======
+<<<<<<< HEAD
+      <a href="./map/admin/admin_login.php" target="_blank">Admin Panel</a>
+      <a href="./map/public/login.php" target="_blank">Driver Login</a>
+=======
+      <a href="./map/admin/admin_login.php" target="_blank">admin</a>
+      <a href="./map/public/login.php" target="_blank">driver</a>
+>>>>>>> 08fde2197b452eeb8685469896221a09353c214e
+>>>>>>> Stashed changes
     </ul>
   </nav>
 
