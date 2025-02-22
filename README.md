@@ -10,7 +10,6 @@ TrashMaster is a Domestic Waste Management system that allows users to schedule 
 
 - **Scheduled Waste Pickup:** Users can schedule visits from a trash truck for convenient waste disposal.
 - **Driver Interaction:** Truck drivers can access the waste during pickups and determine the appropriate payment.
-- **Payment System:** A secure payment system for users to pay based on the amount of waste collected.
 - **User-Friendly Interface:** Intuitive and easy-to-use interface for both users and truck drivers.
 
 ## Getting Started
@@ -19,7 +18,7 @@ To get started with TrashMaster, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Vishesh-04/TrashMaster
+   git clone https://github.com/dhruvgupta3389/treashmaster
 
 2. Open the `index.html` file in your web browser.
 
@@ -28,8 +27,8 @@ To get started with TrashMaster, follow these steps:
 - HTML
 - CSS
 - Javascript
-- Spring Boot
-- Postgre SQL
+- Tailwind
+- SQLite
 
 ## Contributing
 If you would like to contribute to TrashMaster, please follow our contribution guidelines. We welcome contributions from the community!
