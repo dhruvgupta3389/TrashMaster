@@ -34,6 +34,9 @@
         <a href="manage.php" target="_blank">Awareness</a>
         <a href="about.php" target="_blank">About Us</a>
         <a href="Community.php" target="_blank">Community</a>
+        <a href="./map/admin/admin_login.php" target="_blank">admin</a>
+        <a href="./map/public/login.php" target="_blank">driver</a>
+        
       </ul>
     </nav>
 
