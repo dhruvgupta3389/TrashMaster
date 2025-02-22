@@ -18,7 +18,7 @@ To get started with TrashMaster, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/dhruvgupta3389/treashmaster
+   https://github.com/dhruvgupta3389/TrashMaster.git
 
 2. Open the `index.html` file in your web browser.
 
