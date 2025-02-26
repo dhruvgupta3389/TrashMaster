@@ -76,6 +76,7 @@
         <hr>
 
         <?php
+        require'conf.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         if (isset($_POST["name"])) {
             // If it exists, assign its value to $fame
@@ -87,14 +88,14 @@
         $message =$_POST["message"];
         
       
-      // Connecting to the Database
-      $servername = "localhost";
-      $username = "root";
-      $password = "";
-      $database = "trashmaster";
+      // // Connecting to the Database
+      // $servername = "localhost";
+      // $username = "root";
+      // $password = "";
+      // $database = "trashmaster";
 
-      // Create a connection
-      $conn = mysqli_connect($servername, $username, $password, $database);
+      // // Create a connection
+      // $conn = mysqli_connect($servername, $username, $password, $database);
       // Die if connection was not successful
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
