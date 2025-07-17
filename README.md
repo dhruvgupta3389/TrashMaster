@@ -20,7 +20,7 @@ To get started with TrashMaster, follow these steps:
    ```bash
    https://github.com/dhruvgupta3389/TrashMaster.git
    ```
-2. **Add data file in sql data base **
+2. **Add data file in sql data base** 
    add `map/data.sql` to mysql etc connete with it by `conf.php` you good to good to go
 
 ## Technologies Used
