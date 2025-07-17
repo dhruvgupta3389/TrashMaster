@@ -19,9 +19,9 @@ To get started with TrashMaster, follow these steps:
 1. **Clone the Repository:**
    ```bash
    https://github.com/dhruvgupta3389/TrashMaster.git
-
-2. Open the `index.html` file in your web browser.
-
+   ```
+2. **Add data file in sql data base **
+   add `map/data.sql` to mysql etc connete with it by `conf.php` you good to good to go
 
 ## Technologies Used
 - HTML
@@ -29,6 +29,7 @@ To get started with TrashMaster, follow these steps:
 - Javascript
 - Tailwind
 - SQLite
+- PHP
 
 ## Contributing
 If you would like to contribute to TrashMaster, please follow our contribution guidelines. We welcome contributions from the community!
